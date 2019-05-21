@@ -38,13 +38,11 @@ section {
 
 Aside {
   float: right;
-  width: 33%;
+  width: 80px;
   height: 200px;
-  padding: 20px;
-  margin-left: 30px;
-  text-decoration-color: #777;
+  padding: 150px;
   background:#ebebeb;
-  border: 1px solid #eee;
+  line-height: 5px;
 
 }
 
@@ -60,6 +58,7 @@ h1 and p {
 /* added padding and cleard footer */
 Footer {
     background: #ebebeb;
+    height: 80px;
     padding: 20px;
     clear: both;
 }
