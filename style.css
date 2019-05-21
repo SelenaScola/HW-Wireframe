@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     text-align: center;
+
   }
 
 Body {
@@ -11,24 +12,41 @@ Body {
     background: #777;
     width: 960px;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 5px;   /* grey space between cells */
     
      /* font-family: Helvetica Neue not found */
-}
-
-.container {
-    
 }
 
 Header, Nav, Section, Aside, and Footer {
     background: #ebebeb;
 }
 
+header {
+height: 80px;
+line-height: 36px;
+}
+
+Nav {
+    height: 80px;
+    line-height: 36px;  
+}
+
 section {
 
     width: 495px;
 }
- 
+
+Aside {
+  float: right;
+  width: 33%;
+  height: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  text-decoration-color: #777;
+  background:#ebebeb;
+  border: 1px solid #eee;
+
+}
 
 Article {
     color: #ebebeb;
@@ -39,9 +57,9 @@ h1 and p {
     color: #777;
     background: #ebebeb;
 }
-
+/* added padding and cleard footer */
 Footer {
     background: #ebebeb;
-    
-
+    padding: 20px;
+    clear: both;
 }
