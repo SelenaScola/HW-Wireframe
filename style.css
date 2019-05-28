@@ -17,10 +17,14 @@ div {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
-    background: #777;
+    /* background: #777; */
+    background: hotpink;
     width: 960px;
     font-size: 18px;
     text-align: center;
+    margin-left: 250px;
+    /* margin-right: 25px; */
+   
    /* line-height: 5px;   */
      /* grey space between cells */
     
@@ -30,6 +34,7 @@ body {
 header {
     padding: 20px;
     margin-bottom: 0px;
+    margin-top: 15px;
     background: #ebebeb;
 /* height: 80px; */
 /* line-height: 36px; */
@@ -63,6 +68,7 @@ aside {
   width: 440px;
   height: 250px;
   margin-bottom: 15px;
+  margin-top: 15px;
   background:greenyellow;
   /* background: #ebebeb; */
   /* line-height: 5px; */
@@ -74,11 +80,11 @@ section {
     width: 495px;
     height: 250px;
     margin-bottom: 15px;
+    margin-top: 15px;
+    background: #ebebeb;
     /* background: blueviolet; */
     /* height: 200px; */
     /* padding-right: 5px; */
-    background: #ebebeb;
-    
     /* line-height: 5px; */
     /* align-content:  center; */
 }
@@ -109,6 +115,8 @@ h1, h2, h3 {
 }
 
 p {
+    margin-left: 25px;
+    margin-right: 25px;
     color: #777;
     background: #ebebeb;
 }
