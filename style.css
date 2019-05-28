@@ -20,26 +20,30 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
-    line-height: 5px;  
     text-align: center;
-   
+   /* line-height: 5px;   */
      /* grey space between cells */
     
      /* font-family: Helvetica Neue not found */
 }
 
 header {
-height: 80px;
-line-height: 36px;
-background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 0px;
+    background: #ebebeb;
+/* height: 80px; */
+/* line-height: 36px; */
+
 
 
 }
 
 nav {
-    height: 80px;
-    line-height: 36px; 
+    padding: 20px;
+    margin-bottom: 20px;
     background: #ebebeb; 
+    /* line-height: 36px;  */
+   
     
 }
 
@@ -48,43 +52,60 @@ nav {
 
 }
 
+/* .clearfix::after { */
+/* content: " "; */
+/* display: block; */
+/* clear: both; */
+/* } */
+
 aside {
   float: right;
   width: 440px;
-  height: 200px;
-  padding-right: 0px;
+  height: 250px;
+  margin-bottom: 15px;
   background:greenyellow;
   /* background: #ebebeb; */
-  line-height: 5px;
+  /* line-height: 5px; */
 
 }
 section {
+    /* position: absolute; */
     float: left;
     width: 495px;
-    height: 200px;
-    padding: 5px;
-    /* background: #ebebeb; */
-    background: blueviolet;
-    line-height: 5px;
-    align-content:  center;
+    height: 250px;
+    margin-bottom: 15px;
+    /* background: blueviolet; */
+    /* height: 200px; */
+    /* padding-right: 5px; */
+    background: #ebebeb;
+    
+    /* line-height: 5px; */
+    /* align-content:  center; */
 }
 
 article {
+    overflow: auto;
     align-content: center;
-    padding-top: 5px;
-    padding-bottom: 100px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-top: 35px;
+    /* margin-left: 5px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 0px; */
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
     color: #ebebeb;
-    background: orangered;
-    /* background: #777; */
+    background: #777;
+    /* background: orangered; */
+     /* clear: both; */
 }
 
 h1, h2, h3 {
+    margin-left: 25px;
+    margin-right: 25px;
+    
     color: #777;
     background: #ebebeb;
     float: left;
-    clear: right;
+    /* clear: right; */
 }
 
 p {
@@ -93,9 +114,10 @@ p {
 }
 /* added padding and cleard footer */
 footer {
-    /* background: #ebebeb; */
-    background: royalblue;
-    height: 80px;
+    background: #ebebeb;
     padding: 20px;
+    margin-bottom: 20px;
     clear: both;
+    /* background: royalblue; */
+    /* height: 80px; */
 }
