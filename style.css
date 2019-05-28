@@ -4,13 +4,13 @@
  }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777;
     background: #777;
-    width: 960px;
-    margin-left: 250px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    margin-left: 250px;
     text-align: center;
+    width: 960px;
 }
 
 header {
@@ -20,67 +20,68 @@ header {
 }
 
 nav {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 10px;
+    background: #ebebeb;
     margin-bottom: 0px;
-    background: #ebebeb;   
+    margin-top: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px; 
 }
 
 aside {
+  background: #ebebeb;
   float: right;
-  width: 425px;
   height: 265px;
-  padding-top: 35px;
   margin-bottom: 15px;
   margin-top: 15px;
-  background: #ebebeb;
+  padding-top: 35px;
+  width: 425px;
 }
+
 section {
+    background: #ebebeb;
     float: left;
-    width: 495px;
     height: 250px;
     margin-bottom: 15px;
     margin-top: 15px;
-    padding-top: 35px;
     padding-bottom: 15px;
-    padding-right: 10px;
+    padding-top: 35px;
     padding-left: 10px;
-    background: #ebebeb;
+    padding-right: 10px;
+    width: 495px;
 }
 
 article {
-    margin-top: 15px;
+    background: #777;
+    color: #ebebeb;
     margin-left: 5px;
     margin-right: 5px;
-    padding-top: 15px;
-    color: #ebebeb;
-    background: #777;
+    margin-top: 15px;
     padding-bottom: 15px;
-
+    padding-top: 15px;
 }
 
 h1 {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #777;
     background: #ebebeb;
+    color: #777;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 p {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #777;
     background: #ebebeb;
+    color: #777;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 footer {
     background: #ebebeb;
-    padding: 30px;
-    margin-bottom: 30px;
     clear: both;
+    margin-bottom: 30px;
+    padding: 30px;
+   
 }
